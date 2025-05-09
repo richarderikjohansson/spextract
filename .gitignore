@@ -2,3 +2,4 @@
 *.egg-info
 spextract.py
 __pycache__
+dist
