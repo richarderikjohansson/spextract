@@ -1,0 +1,24 @@
+[build-system] 
+requires = ["setuptools >= 77.0.3"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spextract"
+authors = [
+    {name="Richard Johansson", email="richard.johansson@irf.se"}
+]
+version = "0.1.0"
+description = "Software to extract and parse measurement data"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest",
+    "pyodbc",
+    "ssh-python",
+    "ssh2-python",
+    "h5py"
+]
+[project.scripts]
+spextract = "spextract:cli.main"
+
+

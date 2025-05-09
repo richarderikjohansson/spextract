@@ -1,0 +1,2 @@
+[console_scripts]
+spextract = spextract:cli.main

@@ -1,0 +1,46 @@
+{
+    "qaosmode": {
+        "NONE": "0x00",
+        "AOS_ZERO": "0x01",
+        "AOS_COMB": "0x02",
+        "AOS_SIGNAL": "0x04",
+        "FFTS_SIGNAL": "0x08",
+        "FFTS_ZERO": "0x10",
+        "RPGFFTS_SIGNAL": "0x20",
+        "RPGFFTS2_SIGNAL": "0x21",
+        "RPGFFTS_ZERO": "0x40",
+        "RPGFFTS2_ZERO": "0x41",
+        "OFFTS_ZERO": "0x80",
+        "OFFTS_SIGNAL": "0x81"
+    },
+
+    "qfrontend": {
+        "SIGNAL": "0x01",
+        "HOTLOAD": "0x02",
+        "COLDLOAD": "0x03",
+        "MIXLOAD": "0x04",
+        "COLDEXT": "0x05",
+        "FLASHL": "0x06",
+        "TREC": "0x10"
+    },
+
+    "qdataunits": {
+        "COUNTS": "0x01",
+        "K": "0x02",
+        "HZ": "0x04"
+    },
+
+    "qmisc": {
+        "TOTALINT": "0x01",
+        "PARTINT": "0x02",
+        "ACCUOVRFLW": "0x04",
+        "ADCOVRFLW": "0x08"
+    },
+    "map_spectrometer":{
+        "AOS": "AOS_SIGNAL",
+        "FFTS": "FFTS_SIGNAL",
+        "RPGFFTS": "RPGFFTS_SIGNAL",
+        "RPGFFTS2": "RPGFFTS2_SIGNAL",
+        "OFFTS": "OFFTS_SIGNAL"
+    }
+}

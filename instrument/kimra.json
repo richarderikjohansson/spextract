@@ -1,0 +1,11 @@
+{
+"modes": {
+        "O2_O3": [233.5775e9, 236.0775e9],
+        "CO_O3": [229.738e9, 232.238e9],
+        "O3_O3": [235.176865e9, 237.676865e9]
+    },
+
+"channel_width": 76300,
+"channel_length": 32768,
+"path": "/home/uwe/kimra/rawdata/d/data/measure"
+}

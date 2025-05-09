@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/spextract/cli.py
+src/spextract.egg-info/PKG-INFO
+src/spextract.egg-info/SOURCES.txt
+src/spextract.egg-info/dependency_links.txt
+src/spextract.egg-info/entry_points.txt
+src/spextract.egg-info/requires.txt
+src/spextract.egg-info/top_level.txt
