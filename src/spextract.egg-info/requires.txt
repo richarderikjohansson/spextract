@@ -1,5 +1,0 @@
-pytest
-pyodbc
-ssh-python
-ssh2-python
-h5py
